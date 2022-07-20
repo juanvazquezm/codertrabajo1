@@ -142,6 +142,14 @@ h3{
     grid-row-gap: 50px; 
 }
 
+/*Animacion*/
+.boxJugador:hover{
+    transform: rotate(360deg);
+    transition: all 1s;
+    font-weight: bold;
+
+}
+
 
 .nombreJugador{
     text-align: center;
