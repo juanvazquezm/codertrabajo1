@@ -138,8 +138,7 @@ h3{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 2fr 2fr 2fr;
-    grid-column-gap: 50px;
-    grid-row-gap: 50px; 
+    gap: 50px; 
 }
 
 /*Animacion*/
@@ -171,6 +170,14 @@ h3{
     margin-bottom: 10px;
 }
 
+/*Animacion*/
+.boxJugador:hover{
+    transform: rotate(360deg);
+    transition: all 1s;
+    font-weight: bold;
+
+}
+
 /*FIXTURE*/
 /*GRID TEMPLATE AREAS*/
 .resultado{
@@ -183,6 +190,7 @@ h3{
     grid-area: publicidad;
 }
 
+/*Revisar GRID AREA*/
 .fixture{
     display: grid;
     grid-template-areas: 
