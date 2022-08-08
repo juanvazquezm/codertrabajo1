@@ -153,6 +153,7 @@ h3{
     background-color: rgba(61, 58, 58, 0.486);
 }
 
+
 .nombreJugador{
     text-align: center;
 }
@@ -193,21 +194,26 @@ h3{
 /*Revisar GRID AREA*/
 .fixture{
     display: grid;
-    grid-template-areas: 
-    "resultado entrada"
-    "entrada resultado"
-    "publicidad"
-    "resultado entrada"
-    "entrada resultado"
-    "publicidad";
+    grid-gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto 15%;
-    width: 100%;
-    height: 100vh;
+
 }
 
-.border{
+.cuadro{
     padding: 50px;
-    background-color: aliceblue;
-    border: 1px solid black;
+    background-color: aqua;
+    border: #111;
+}
+
+/* Nuevo Formulario con Bootstrap */
+
+.btnReset{
+    background-color: #404eed;
+    border: #404eed;
+}
+.btnSend{
+    background-color:white;
+    color: #333;
+    font-weight: bold;
+    border: #404eed;
 }
